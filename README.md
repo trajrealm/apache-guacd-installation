@@ -1,5 +1,37 @@
-# apache-guacd-installation
-## Machine - AWS Ubuntu image
+# Apache Guacamole Installation & Management API
+
+This repository contains installation instructions for Apache Guacamole and a comprehensive REST API for managing Guacamole instances.
+
+## 🚀 New: Management API
+
+A versioned REST API is now available for managing Guacamole connections, users, and configuration.
+
+### Quick Start
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Start the API server
+python app.py
+
+# Test the API
+python test_api.py
+```
+
+### API Features
+- **Versioned APIs** - All endpoints are under `/api/v1/` for proper version management
+- **Connection Management** - Create, read, update, delete connections
+- **User Management** - Manage user accounts and permissions
+- **Configuration Management** - Handle server configuration settings
+- **Health Monitoring** - Built-in health check endpoints
+
+📚 **[Complete API Documentation](API_DOCUMENTATION.md)**
+
+---
+
+## 🖥️ Installation Instructions
+
+### Machine - AWS Ubuntu image
 ```
 Distributor ID:	Ubuntu
 Description:	Ubuntu 22.04.5 LTS
